@@ -13,8 +13,9 @@ async function getBalance() {
         }
     });
     return {
-        amount: balance?.amount || 0,
-        locked: balance?.locked || 0
+        amount: balance?.amount || 0,//object literal 
+        locked: balance?.locked || 0//? here optional chaining operator. It allows you to access
+        //   properties of an object that may be null or undefined without causing an error.
     }
 }
 
