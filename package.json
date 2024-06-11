@@ -4,10 +4,10 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev && turbo dev:user-app && turbo dev:bank-webhook",
-    "lint": "turbo lint",gg
+    "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "db:generate":"cd package &&npx prisma migrate && cd ../.."
-  
+  //edc
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
