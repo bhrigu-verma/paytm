@@ -1,6 +1,6 @@
 {
   "name": "week-18",
-  "private": true,
+  "private": true,//hff
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev && turbo dev:user-app && turbo dev:bank-webhook",
